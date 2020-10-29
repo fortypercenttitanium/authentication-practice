@@ -1,0 +1,30 @@
+{
+	"name": "authentication-practice",
+	"version": "1.0.0",
+	"description": "Practice for The Odin Project authentication lesson",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fortypercenttitanium/authentication-practice.git"
+	},
+	"author": "Alex Younger",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fortypercenttitanium/authentication-practice/issues"
+	},
+	"homepage": "https://github.com/fortypercenttitanium/authentication-practice#readme",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"connect-flash": "^0.1.1",
+		"dotenv": "^8.2.0",
+		"ejs": "^3.1.5",
+		"express": "^4.17.1",
+		"express-session": "^1.17.1",
+		"mongoose": "^5.10.11",
+		"passport": "^0.4.1",
+		"passport-local": "^1.0.0"
+	}
+}
